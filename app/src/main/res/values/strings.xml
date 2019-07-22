@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SportsKart</string>
+    <string name="title_activity_drawer_navigation">Sports-Kart</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sports-Kart Store</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Kart</string>
+
+    <string name="menu_profile">My Profile</string>
+    <string name="menu_list">My Wish List</string>
+    <string name="menu_cart">My Cart</string>
+    <string name="menu_orders">My Orders</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="menu_email">Email</string>
+    <string name="menu_call">Call</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_rate">Rate App</string>
+    <string name="menu_appinfo">App Info</string>
+
+</resources>

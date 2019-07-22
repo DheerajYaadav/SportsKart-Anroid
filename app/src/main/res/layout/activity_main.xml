@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="12dp"
+        android:textSize="48sp"
+       />/ android:textColor="@color/headingcolor"
+        />
+
+
+    <EditText android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="2dp"
+        android:layout_height="64dp"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        />/ android:background="@drawable/edittextstyle"
+    android:hint="Email Address" />
+
+    <EditText android:id="@+id/input_password"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="2dp"
+        android:layout_height="64dp"
+        android:inputType="textPassword"
+        android:gravity="center"
+        />/ android:background="@drawable/edittextstyle"
+    android:hint="password" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="2dp"
+        android:text="SIGN IN"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        />/   android:background="@drawable/edittextstyle"
+    />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SKIP LOGIN"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="192dp"
+        android:textSize="24sp"
+        android:textColor="@color/colorText"
+        />/ android:textColor="@color/headingcolor"
+    />
+
+
+</LinearLayout>
